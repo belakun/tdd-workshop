@@ -1,0 +1,41 @@
+{
+  "name": "tdd-workshop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test:watch": "jest --watchAll",
+    "test": "jest",
+    "team:a": "git fetch origin && git checkout team-a"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/belakun/tdd-workshop.git"
+  },
+  "author": "maksym.bielinskyi@yalantis.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/belakun/tdd-workshop/issues"
+  },
+  "homepage": "https://github.com/belakun/tdd-workshop#readme",
+  "devDependencies": {
+    "jest": "^29.0.3",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.3",
+    "@types/jest": "28.1.8",
+    "@types/node": "16.11.59",
+    "@typescript-eslint/eslint-plugin": "5.37.0",
+    "@typescript-eslint/parser": "5.37.0",
+    "eslint": "8.23.1",
+    "eslint-config-prettier": "8.5.0",
+    "eslint-plugin-import": "2.26.0",
+    "eslint-plugin-jest": "27.0.4",
+    "eslint-plugin-jsdoc": "39.3.6",
+    "eslint-plugin-json": "3.1.0",
+    "eslint-plugin-markdown": "3.0.0",
+    "eslint-plugin-prefer-arrow": "1.2.3",
+    "eslint-plugin-prettier": "4.2.1",
+    "prettier": "2.7.1",
+    "ts-jest": "29.0.1"
+  }
+}
