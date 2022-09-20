@@ -6,7 +6,10 @@
   "scripts": {
     "test:watch": "jest --watchAll",
     "test": "jest",
-    "team:a": "git fetch origin && git checkout team-a"
+    "team:a": "git fetch origin && git checkout team-a && npm i && jest --watchAll",
+    "team:b": "git fetch origin && git checkout team-b && npm i && jest --watchAll",
+    "team:c": "git fetch origin && git checkout team-c && npm i && jest --watchAll",
+    "next": "git add . && git commit -m \"next\" && git push -u origin HEAD"
   },
   "repository": {
     "type": "git",
